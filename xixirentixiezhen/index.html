@@ -1,0 +1,1240 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>西西人体写真-艺术摄影作品与拍摄指南</title>
+<meta name="description" content="西西人体写真专注艺术人体摄影领域，汇集摄影作品展示、布光构图技巧、模特沟通流程与行业规范解读，提供从入门到进阶的完整拍摄指南与作品赏析。">
+<meta name="keywords" content="西西人体写真">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232b1a2e'/%3E%3Ccircle cx='16' cy='11' r='5' fill='%23e8b4a0'/%3E%3Cpath d='M8 27c0-5 3.6-9 8-9s8 4 8 9' fill='none' stroke='%23e8b4a0' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "西西人体写真",
+  "description": "艺术人体摄影作品展示与拍摄技巧指南",
+  "inLanguage": "zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "人体写真拍摄前如何与模特沟通边界？", "acceptedAnswer": {"@type": "Answer", "text": "拍摄前需要逐条确认可拍与不可拍的姿态、服装与呈现范围，用书面清单记录并由双方签字，现场安排同性助理在场。"}},
+    {"@type": "Question", "name": "室内人体写真布光有哪些常见方案？", "acceptedAnswer": {"@type": "Answer", "text": "单灯侧逆光塑造轮廓、双灯伦勃朗光强调面部结构、柔光箱顶光降低阴影硬度，三种方案依据肤质与空间高度选择。"}},
+    {"@type": "Question", "name": "人体写真作品公开发布要注意什么？", "acceptedAnswer": {"@type": "Answer", "text": "须取得模特书面授权并明确传播范围、平台与期限，涉及商业用途需单独约定费用与撤稿机制。"}},
+    {"@type": "Question", "name": "手机能拍出合格的人体写真吗？", "acceptedAnswer": {"@type": "Answer", "text": "手机在自然光窗边配合反光板可以完成局部肢体与剪影类作品，弱光环境噪点与宽容度不足，需要补光或改用相机。"}}
+  ]
+}
+</script>
+<style>
+:root{
+  --c-bg:#faf6f2;
+  --c-surface:#ffffff;
+  --c-dark:#2b1a2e;
+  --c-dark-2:#3d2841;
+  --c-accent:#b5606e;
+  --c-accent-soft:#f3dfe2;
+  --c-warm:#e8b4a0;
+  --c-text:#2e2a2c;
+  --c-muted:#6f6468;
+  --c-line:#e4dad4;
+  --font-serif:"Songti SC","Noto Serif SC",Georgia,serif;
+  --font-sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  --fs-xs:12px;--fs-sm:13px;--fs-base:15px;--fs-md:17px;--fs-lg:21px;--fs-xl:27px;--fs-hero:38px;
+  --sp-1:4px;--sp-2:8px;--sp-3:12px;--sp-4:18px;--sp-5:26px;--sp-6:38px;--sp-7:56px;
+  --radius-s:6px;--radius-m:12px;--radius-l:18px;
+  --shadow-s:0 1px 3px rgba(43,26,46,.07);
+  --shadow-m:0 6px 20px rgba(43,26,46,.1);
+  --header-h:60px;
+  --notice-h:38px;
+  --sticky-offset:calc(var(--header-h) + var(--notice-h) + 14px);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--font-sans);
+  background:var(--c-bg);
+  color:var(--c-text);
+  font-size:var(--fs-base);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%;}
+a{color:inherit;text-decoration:none;}
+ul,ol{list-style:none;}
+button{font-family:inherit;cursor:pointer;}
+section[id],div[id]{scroll-margin-top:var(--sticky-offset);}
+
+/* ---------- 公告条 ---------- */
+.notice-bar{
+  position:sticky;top:0;z-index:120;
+  height:var(--notice-h);
+  background:var(--c-dark);
+  color:#f0e6e2;
+  font-size:var(--fs-sm);
+  display:flex;align-items:center;
+  overflow:hidden;
+}
+.notice-bar .notice-inner{
+  width:100%;max-width:1240px;margin:0 auto;padding:0 var(--sp-4);
+  display:flex;align-items:center;gap:var(--sp-3);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.notice-tag{
+  flex:none;background:var(--c-accent);color:#fff;
+  font-size:var(--fs-xs);padding:1px 8px;border-radius:20px;letter-spacing:.5px;
+}
+.notice-inner a{color:var(--c-warm);text-decoration:underline;text-underline-offset:3px;}
+
+/* ---------- 页头 ---------- */
+.site-header{
+  position:sticky;top:var(--notice-h);z-index:110;
+  height:var(--header-h);
+  background:rgba(250,246,242,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--c-line);
+  box-shadow:var(--shadow-s);
+}
+.header-inner{
+  max-width:1240px;height:100%;margin:0 auto;padding:0 var(--sp-4);
+  display:flex;align-items:center;gap:var(--sp-4);
+}
+.brand{display:flex;align-items:center;gap:10px;flex:none;}
+.brand svg{width:34px;height:34px;flex:none;}
+.brand-name{
+  font-family:var(--font-serif);
+  font-size:var(--fs-lg);font-weight:700;color:var(--c-dark);
+  letter-spacing:1px;line-height:1;
+}
+.brand-sub{font-size:10px;color:var(--c-muted);letter-spacing:2px;line-height:1;margin-top:3px;}
+.main-nav{display:flex;align-items:center;gap:var(--sp-2);margin-left:auto;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;}
+.main-nav::-webkit-scrollbar{display:none;}
+.main-nav a{
+  font-size:var(--fs-sm);color:var(--c-text);padding:6px 10px;border-radius:20px;
+  white-space:nowrap;transition:background .2s,color .2s;
+}
+.main-nav a:hover,.main-nav a:focus-visible{background:var(--c-accent-soft);color:var(--c-accent);outline:none;}
+.main-nav a:focus-visible{box-shadow:0 0 0 2px var(--c-accent);}
+.header-tools{display:flex;align-items:center;gap:var(--sp-2);flex:none;}
+.search-btn{
+  width:36px;height:36px;border-radius:50%;border:1px solid var(--c-line);
+  background:var(--c-surface);display:flex;align-items:center;justify-content:center;
+  transition:border-color .2s,box-shadow .2s;
+}
+.search-btn:hover,.search-btn:focus-visible{border-color:var(--c-accent);box-shadow:0 0 0 2px var(--c-accent-soft);outline:none;}
+.search-btn svg{width:16px;height:16px;stroke:var(--c-dark);}
+.menu-toggle{
+  display:none;width:38px;height:36px;border-radius:var(--radius-s);
+  border:1px solid var(--c-line);background:var(--c-surface);
+  align-items:center;justify-content:center;flex-direction:column;gap:4px;
+}
+.menu-toggle:focus-visible{outline:2px solid var(--c-accent);outline-offset:2px;}
+.menu-toggle span{display:block;width:17px;height:2px;background:var(--c-dark);border-radius:2px;transition:transform .2s,opacity .2s;}
+.menu-open .menu-toggle span:nth-child(1){transform:translateY(6px) rotate(45deg);}
+.menu-open .menu-toggle span:nth-child(2){opacity:0;}
+.menu-open .menu-toggle span:nth-child(3){transform:translateY(-6px) rotate(-45deg);}
+
+/* 搜索面板 */
+.search-panel{
+  display:none;position:sticky;top:calc(var(--notice-h) + var(--header-h));z-index:105;
+  background:var(--c-surface);border-bottom:1px solid var(--c-line);box-shadow:var(--shadow-s);
+}
+.search-panel.open{display:block;}
+.search-inner{max-width:1240px;margin:0 auto;padding:var(--sp-3) var(--sp-4);display:flex;gap:var(--sp-2);}
+.search-inner input{
+  flex:1;padding:9px 14px;border:1px solid var(--c-line);border-radius:var(--radius-s);
+  font-size:var(--fs-base);background:var(--c-bg);color:var(--c-text);
+}
+.search-inner input:focus{outline:none;border-color:var(--c-accent);}
+.search-inner button{
+  padding:9px 20px;border:none;border-radius:var(--radius-s);background:var(--c-dark);color:#fff;font-size:var(--fs-sm);
+}
+.search-inner button:hover{background:var(--c-accent);}
+.search-result{max-width:1240px;margin:0 auto;padding:0 var(--sp-4) var(--sp-3);font-size:var(--fs-sm);color:var(--c-muted);}
+.search-result mark{background:var(--c-accent-soft);color:var(--c-accent);padding:0 2px;border-radius:2px;}
+
+/* ---------- 主容器 ---------- */
+.wrap{max-width:1240px;margin:0 auto;padding:0 var(--sp-4);}
+
+/* ---------- 首屏 ---------- */
+.hero{
+  position:relative;background:linear-gradient(135deg,#2b1a2e 0%,#4a2f4e 55%,#7a4f5e 100%);
+  color:#f5eee9;overflow:hidden;
+}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(ellipse at 78% 30%,rgba(232,180,160,.22),transparent 55%);
+  pointer-events:none;
+}
+.hero-inner{
+  max-width:1240px;margin:0 auto;padding:var(--sp-7) var(--sp-4) var(--sp-6);
+  display:grid;grid-template-columns:1.15fr .85fr;gap:var(--sp-5);align-items:center;
+  position:relative;z-index:1;
+}
+.hero-copy{max-width:600px;}
+.hero-kicker{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:var(--fs-xs);letter-spacing:2px;color:var(--c-warm);
+  border:1px solid rgba(232,180,160,.45);border-radius:20px;padding:3px 14px;margin-bottom:var(--sp-4);
+}
+.hero-kicker i{display:block;width:6px;height:6px;border-radius:50%;background:var(--c-warm);}
+.hero h1{
+  font-family:var(--font-serif);
+  font-size:var(--fs-hero);line-height:1.25;font-weight:700;letter-spacing:1px;
+  margin-bottom:var(--sp-4);
+}
+.hero-desc{
+  font-size:var(--fs-md);color:#d9cfcb;line-height:1.85;max-width:520px;margin-bottom:var(--sp-5);
+}
+.hero-desc strong{color:#fff;font-weight:600;}
+.hero-cta{display:flex;gap:var(--sp-3);flex-wrap:wrap;}
+.btn-primary{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--c-warm);color:#38222e;font-size:var(--fs-base);font-weight:600;
+  padding:11px 26px;border-radius:30px;transition:transform .2s,box-shadow .2s;
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(232,180,160,.35);}
+.btn-ghost{
+  display:inline-flex;align-items:center;gap:8px;
+  border:1px solid rgba(245,238,233,.4);color:#f5eee9;font-size:var(--fs-base);
+  padding:11px 24px;border-radius:30px;transition:background .2s,border-color .2s;
+}
+.btn-ghost:hover{background:rgba(245,238,233,.12);border-color:rgba(245,238,233,.7);}
+.hero-stats{display:flex;gap:var(--sp-6);margin-top:var(--sp-6);}
+.hero-stats div b{display:block;font-family:var(--font-serif);font-size:var(--fs-xl);color:var(--c-warm);line-height:1.1;}
+.hero-stats div span{font-size:var(--fs-xs);color:#b3a5a8;letter-spacing:1px;}
+.hero-art{position:relative;height:340px;}
+.hero-art svg{width:100%;height:100%;}
+.hero-art .frame-label{
+  position:absolute;right:6px;bottom:4px;font-size:var(--fs-xs);color:rgba(245,238,233,.55);letter-spacing:1px;
+}
+
+/* ---------- 通用板块 ---------- */
+.section{padding:var(--sp-7) 0;}
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:var(--sp-4);margin-bottom:var(--sp-5);flex-wrap:wrap;}
+.section-title{
+  font-family:var(--font-serif);font-size:var(--fs-xl);font-weight:700;color:var(--c-dark);line-height:1.3;
+  position:relative;padding-left:16px;
+}
+.section-title::before{
+  content:"";position:absolute;left:0;top:6px;bottom:6px;width:4px;border-radius:3px;
+  background:linear-gradient(var(--c-accent),var(--c-warm));
+}
+.section-sub{font-size:var(--fs-sm);color:var(--c-muted);margin-top:6px;}
+.section-link{font-size:var(--fs-sm);color:var(--c-accent);flex:none;}
+.section-link:hover{text-decoration:underline;text-underline-offset:3px;}
+.divider{height:1px;background:var(--c-line);border:none;}
+
+/* ---------- 领域概览 ---------- */
+.overview-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp-4);}
+.ov-card{
+  background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius-m);
+  padding:var(--sp-4);box-shadow:var(--shadow-s);transition:transform .2s,box-shadow .2s,border-color .2s;
+}
+.ov-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-m);border-color:var(--c-accent-soft);}
+.ov-card h3{font-size:var(--fs-md);color:var(--c-dark);margin-bottom:var(--sp-2);font-family:var(--font-serif);}
+.ov-card p{font-size:var(--fs-sm);color:var(--c-muted);line-height:1.7;}
+.ov-num{font-family:var(--font-serif);font-size:var(--fs-sm);color:var(--c-accent);letter-spacing:1px;margin-bottom:var(--sp-2);}
+
+/* ---------- 双栏主体布局 ---------- */
+.layout-two{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:var(--sp-6);align-items:start;}
+
+/* ---------- 精选内容 ---------- */
+.featured-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:var(--sp-4);}
+.feature-main{
+  grid-row:span 2;display:flex;flex-direction:column;
+  background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius-l);
+  overflow:hidden;box-shadow:var(--shadow-s);
+}
+.feature-main img{width:100%;height:220px;object-fit:cover;}
+.feature-main .fm-body{padding:var(--sp-4);display:flex;flex-direction:column;gap:var(--sp-2);flex:1;}
+.tag-pill{display:inline-block;font-size:var(--fs-xs);color:var(--c-accent);background:var(--c-accent-soft);border-radius:20px;padding:2px 10px;letter-spacing:.4px;}
+.feature-main h3{font-family:var(--font-serif);font-size:var(--fs-lg);line-height:1.4;color:var(--c-dark);}
+.feature-main p{font-size:var(--fs-sm);color:var(--c-muted);}
+.feature-main .meta{margin-top:auto;font-size:var(--fs-xs);color:var(--c-muted);display:flex;justify-content:space-between;padding-top:var(--sp-2);border-top:1px dashed var(--c-line);}
+.feature-side{
+  background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius-m);
+  padding:var(--sp-4);display:flex;flex-direction:column;gap:var(--sp-2);box-shadow:var(--shadow-s);
+  transition:transform .2s,box-shadow .2s;
+}
+.feature-side:hover{transform:translateY(-2px);box-shadow:var(--shadow-m);}
+.feature-side h3{font-size:var(--fs-base);color:var(--c-dark);line-height:1.45;font-weight:600;}
+.feature-side p{font-size:var(--fs-xs);color:var(--c-muted);}
+.feature-side .meta{font-size:var(--fs-xs);color:var(--c-muted);margin-top:auto;}
+
+/* ---------- 最新更新（紧凑列表） ---------- */
+.update-list{background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius-m);overflow:hidden;}
+.update-item{
+  display:grid;grid-template-columns:78px 1fr auto;gap:var(--sp-3);align-items:center;
+  padding:var(--sp-3) var(--sp-4);border-bottom:1px solid var(--c-line);font-size:var(--fs-sm);
+  transition:background .2s;
+}
+.update-item:last-child{border-bottom:none;}
+.update-item:hover{background:var(--c-bg);}
+.update-date{color:var(--c-accent);font-family:var(--font-serif);font-size:var(--fs-sm);}
+.update-item .u-title{color:var(--c-text);}
+.update-item .u-title b{font-weight:600;color:var(--c-dark);}
+.update-cat{font-size:var(--fs-xs);color:var(--c-muted);border:1px solid var(--c-line);border-radius:20px;padding:1px 10px;flex:none;}
+
+/* ---------- 分类入口（标签索引） ---------- */
+.cat-index{display:flex;flex-wrap:wrap;gap:var(--sp-2);}
+.cat-tag{
+  display:inline-flex;align-items:center;gap:6px;
+  background:var(--c-surface);border:1px solid var(--c-line);border-radius:30px;
+  padding:7px 16px;font-size:var(--fs-sm);color:var(--c-text);
+  transition:border-color .2s,color .2s,background .2s,transform .2s;
+}
+.cat-tag em{font-style:normal;font-size:var(--fs-xs);color:var(--c-muted);}
+.cat-tag:hover{border-color:var(--c-accent);color:var(--c-accent);background:var(--c-accent-soft);transform:translateY(-2px);}
+
+/* ---------- 深度解析（全页唯一主体阅读区） ---------- */
+.deep-read{
+  background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius-l);
+  padding:var(--sp-6);box-shadow:var(--shadow-s);
+}
+.deep-read h2{font-family:var(--font-serif);font-size:var(--fs-xl);color:var(--c-dark);margin-bottom:var(--sp-2);}
+.deep-lead{font-size:var(--fs-md);color:var(--c-muted);line-height:1.85;margin-bottom:var(--sp-5);padding-bottom:var(--sp-4);border-bottom:1px solid var(--c-line);}
+.deep-read h3{
+  font-family:var(--font-serif);font-size:var(--fs-lg);color:var(--c-dark);
+  margin:var(--sp-5) 0 var(--sp-3);padding-left:12px;border-left:3px solid var(--c-warm);
+}
+.deep-read p{font-size:var(--fs-base);line-height:1.95;color:var(--c-text);margin-bottom:var(--sp-3);}
+.deep-read p strong{color:var(--c-dark);font-weight:600;}
+.deep-quote{
+  margin:var(--sp-4) 0;padding:var(--sp-3) var(--sp-4);
+  background:var(--c-bg);border-radius:var(--radius-s);border-left:3px solid var(--c-accent);
+  font-size:var(--fs-sm);color:var(--c-muted);line-height:1.8;
+}
+.deep-quote cite{display:block;font-style:normal;font-size:var(--fs-xs);color:var(--c-accent);margin-top:6px;}
+.compare-table{width:100%;border-collapse:collapse;font-size:var(--fs-sm);margin:var(--sp-4) 0;}
+.compare-table th,.compare-table td{border:1px solid var(--c-line);padding:9px 12px;text-align:left;vertical-align:top;}
+.compare-table th{background:var(--c-bg);color:var(--c-dark);font-weight:600;}
+.compare-table td{color:var(--c-muted);}
+
+/* ---------- 体验指南（编号步骤） ---------- */
+.steps-panel{background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius-m);padding:var(--sp-5);}
+.steps{display:grid;gap:var(--sp-3);}
+.step{display:grid;grid-template-columns:38px 1fr;gap:var(--sp-3);align-items:start;}
+.step-num{
+  width:38px;height:38px;border-radius:50%;
+  background:linear-gradient(135deg,var(--c-dark),var(--c-accent));
+  color:#fff;display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-serif);font-size:var(--fs-md);flex:none;
+}
+.step-body h3{font-size:var(--fs-base);color:var(--c-dark);margin-bottom:2px;}
+.step-body p{font-size:var(--fs-sm);color:var(--c-muted);}
+
+/* ---------- 对照面板 ---------- */
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-4);}
+.panel-card{
+  border-radius:var(--radius-m);padding:var(--sp-5);border:1px solid var(--c-line);
+}
+.panel-card.soft{background:var(--c-surface);}
+.panel-card.dark{background:var(--c-dark);color:#eee4e0;border-color:var(--c-dark);}
+.panel-card h3{font-family:var(--font-serif);font-size:var(--fs-md);margin-bottom:var(--sp-3);}
+.panel-card.dark h3{color:var(--c-warm);}
+.panel-card ul li{font-size:var(--fs-sm);line-height:1.8;padding-left:18px;position:relative;margin-bottom:var(--sp-2);}
+.panel-card ul li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:7px;border-radius:50%;background:var(--c-accent);}
+.panel-card.dark ul li::before{background:var(--c-warm);}
+
+/* ---------- 问答折叠 ---------- */
+.faq-list{display:grid;gap:var(--sp-2);}
+.faq-item{
+  background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius-m);
+  overflow:hidden;
+}
+.faq-item summary{
+  list-style:none;cursor:pointer;padding:var(--sp-3) var(--sp-4);
+  font-size:var(--fs-base);font-weight:600;color:var(--c-dark);
+  display:flex;align-items:center;justify-content:space-between;gap:var(--sp-3);
+}
+.faq-item summary::-webkit-details-marker{display:none;}
+.faq-item summary::after{content:"+";font-size:var(--fs-lg);color:var(--c-accent);font-weight:400;flex:none;transition:transform .2s;}
+.faq-item[open] summary::after{transform:rotate(45deg);}
+.faq-item summary:focus-visible{outline:2px solid var(--c-accent);outline-offset:-2px;}
+.faq-body{padding:0 var(--sp-4) var(--sp-4);font-size:var(--fs-sm);color:var(--c-muted);line-height:1.85;border-top:1px dashed var(--c-line);padding-top:var(--sp-3);}
+
+/* ---------- 用户评论 ---------- */
+.comment-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-4);}
+.comment-card{
+  background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius-m);
+  padding:var(--sp-4);box-shadow:var(--shadow-s);
+}
+.comment-head{display:flex;align-items:center;gap:var(--sp-2);margin-bottom:var(--sp-2);}
+.avatar{width:34px;height:34px;border-radius:50%;background:var(--c-accent-soft);color:var(--c-accent);display:flex;align-items:center;justify-content:center;font-family:var(--font-serif);font-size:var(--fs-sm);flex:none;}
+.comment-name{font-size:var(--fs-sm);font-weight:600;color:var(--c-dark);}
+.comment-stars{font-size:var(--fs-xs);color:var(--c-warm);letter-spacing:1px;margin-left:auto;}
+.comment-text{font-size:var(--fs-sm);color:var(--c-text);line-height:1.8;}
+.comment-text em{font-style:normal;color:var(--c-accent);}
+.comment-meta{font-size:var(--fs-xs);color:var(--c-muted);margin-top:var(--sp-2);}
+
+/* ---------- 相关资讯（含时间线） ---------- */
+.news-timeline{border-left:2px solid var(--c-line);padding-left:var(--sp-4);display:grid;gap:var(--sp-4);}
+.news-item{position:relative;}
+.news-item::before{content:"";position:absolute;left:calc(-1 * var(--sp-4) - 5px);top:6px;width:8px;height:8px;border-radius:50%;background:var(--c-accent);border:2px solid var(--c-bg);}
+.news-item time{font-size:var(--fs-xs);color:var(--c-accent);font-family:var(--font-serif);}
+.news-item h3{font-size:var(--fs-base);color:var(--c-dark);margin:2px 0;}
+.news-item p{font-size:var(--fs-sm);color:var(--c-muted);}
+
+/* ---------- 相关推荐 ---------- */
+.rec-tags{display:flex;flex-wrap:wrap;gap:var(--sp-2);}
+.rec-tag{
+  display:inline-block;padding:6px 14px;border-radius:var(--radius-s);
+  background:var(--c-surface);border:1px solid var(--c-line);
+  font-size:var(--fs-sm);color:var(--c-text);transition:all .2s;
+}
+.rec-tag:hover{border-color:var(--c-accent);color:var(--c-accent);background:var(--c-accent-soft);}
+
+/* ---------- 榜单 ---------- */
+.rank-list{counter-reset:rank;background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius-m);overflow:hidden;}
+.rank-item{
+  counter-increment:rank;display:grid;grid-template-columns:42px 1fr auto;gap:var(--sp-3);
+  align-items:center;padding:var(--sp-3) var(--sp-4);border-bottom:1px solid var(--c-line);
+}
+.rank-item:last-child{border-bottom:none;}
+.rank-item::before{
+  content:counter(rank,decimal-leading-zero);
+  font-family:var(--font-serif);font-size:var(--fs-md);color:var(--c-accent);font-weight:700;
+}
+.rank-item .r-title{font-size:var(--fs-sm);color:var(--c-dark);font-weight:600;}
+.rank-item .r-sub{font-size:var(--fs-xs);color:var(--c-muted);font-weight:400;}
+.rank-item .r-score{font-size:var(--fs-xs);color:var(--c-accent);background:var(--c-accent-soft);padding:1px 9px;border-radius:20px;}
+
+/* ---------- 侧栏 ---------- */
+.sidebar{display:grid;gap:var(--sp-5);position:sticky;top:var(--sticky-offset);}
+.side-box{background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--radius-m);padding:var(--sp-4);box-shadow:var(--shadow-s);}
+.side-box h2{font-family:var(--font-serif);font-size:var(--fs-md);color:var(--c-dark);margin-bottom:var(--sp-3);padding-bottom:var(--sp-2);border-bottom:1px solid var(--c-line);}
+.side-nav{display:grid;gap:2px;}
+.side-nav a{
+  display:block;padding:7px 10px;border-radius:var(--radius-s);font-size:var(--fs-sm);color:var(--c-muted);
+  border-left:2px solid transparent;transition:all .2s;
+}
+.side-nav a:hover{background:var(--c-bg);color:var(--c-dark);}
+.side-nav a.active{background:var(--c-accent-soft);color:var(--c-accent);border-left-color:var(--c-accent);font-weight:600;}
+.side-nav a:focus-visible{outline:2px solid var(--c-accent);outline-offset:-2px;}
+.side-list{display:grid;gap:var(--sp-3);}
+.side-list a{display:block;font-size:var(--fs-sm);color:var(--c-text);line-height:1.6;}
+.side-list a:hover{color:var(--c-accent);}
+.side-list span{display:block;font-size:var(--fs-xs);color:var(--c-muted);margin-top:2px;}
+.side-list a:focus-visible{outline:2px solid var(--c-accent);outline-offset:2px;border-radius:2px;}
+
+/* ---------- 回到顶部 ---------- */
+.to-top{
+  position:fixed;right:20px;bottom:26px;z-index:130;
+  width:44px;height:44px;border-radius:50%;border:none;
+  background:var(--c-dark);color:var(--c-warm);box-shadow:var(--shadow-m);
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;visibility:hidden;transform:translateY(10px);
+  transition:opacity .25s,transform .25s,visibility .25s,background .2s;
+}
+.to-top.show{opacity:1;visibility:visible;transform:none;}
+.to-top:hover{background:var(--c-accent);color:#fff;}
+.to-top:focus-visible{outline:2px solid var(--c-warm);outline-offset:3px;}
+.to-top svg{width:18px;height:18px;}
+
+/* ---------- 页尾 ---------- */
+.site-footer{background:var(--c-dark);color:#c9bfc2;margin-top:var(--sp-6);}
+.footer-inner{max-width:1240px;margin:0 auto;padding:var(--sp-6) var(--sp-4) var(--sp-5);}
+.footer-top{display:grid;grid-template-columns:1.4fr 2.6fr;gap:var(--sp-6);padding-bottom:var(--sp-5);border-bottom:1px solid rgba(255,255,255,.1);}
+.footer-brand .brand-name{color:#f5eee9;font-size:var(--fs-lg);}
+.footer-brand p{font-size:var(--fs-sm);color:#a3969a;line-height:1.8;margin-top:var(--sp-3);max-width:320px;}
+.footer-groups{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-5);}
+.footer-groups h3{font-size:var(--fs-sm);color:var(--c-warm);margin-bottom:var(--sp-3);font-weight:600;letter-spacing:1px;}
+.footer-groups li{margin-bottom:8px;}
+.footer-groups a{font-size:var(--fs-sm);color:#a3969a;transition:color .2s;}
+.footer-groups a:hover{color:#f5eee9;}
+.footer-bottom{padding-top:var(--sp-4);display:flex;justify-content:space-between;gap:var(--sp-3);flex-wrap:wrap;font-size:var(--fs-xs);color:#8b7f83;line-height:1.9;}
+.footer-bottom .note{max-width:640px;}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1024px){
+  .layout-two{grid-template-columns:1fr;}
+  .sidebar{position:static;grid-template-columns:1fr 1fr;display:grid;}
+  .hero-inner{grid-template-columns:1fr;}
+  .hero-art{height:260px;max-width:520px;}
+  .overview-grid{grid-template-columns:repeat(2,1fr);}
+  .featured-grid{grid-template-columns:1fr 1fr;}
+  .feature-main{grid-column:1 / -1;grid-row:auto;}
+}
+@media (max-width:760px){
+  :root{--fs-hero:30px;--fs-xl:23px;--fs-lg:19px;--sp-7:40px;--sp-6:30px;}
+  .main-nav{
+    display:none;position:absolute;top:var(--header-h);left:0;right:0;
+    background:var(--c-surface);border-bottom:1px solid var(--c-line);
+    flex-direction:column;align-items:stretch;gap:0;padding:var(--sp-2) var(--sp-3);
+    box-shadow:var(--shadow-m);max-height:70vh;overflow-y:auto;
+  }
+  .menu-open .main-nav{display:flex;}
+  .main-nav a{padding:10px 12px;border-radius:var(--radius-s);}
+  .menu-toggle{display:flex;}
+  .header-tools{margin-left:auto;}
+  .search-panel{top:var(--notice-h);}
+  .notice-bar .notice-inner{font-size:var(--fs-xs);gap:6px;}
+  .hero-stats{gap:var(--sp-5);flex-wrap:wrap;}
+  .overview-grid{grid-template-columns:1fr;}
+  .featured-grid{grid-template-columns:1fr;}
+  .update-item{grid-template-columns:1fr auto;gap:2px 10px;}
+  .update-date{grid-row:1;}
+  .update-cat{align-self:start;}
+  .compare-grid{grid-template-columns:1fr;}
+  .comment-grid{grid-template-columns:1fr;}
+  .sidebar{grid-template-columns:1fr;}
+  .footer-top{grid-template-columns:1fr;}
+  .footer-groups{grid-template-columns:1fr 1fr;}
+  .deep-read{padding:var(--sp-4);}
+  .compare-table{display:block;overflow-x:auto;}
+  .to-top{right:14px;bottom:16px;width:40px;height:40px;}
+}
+@media (max-width:380px){
+  .hero h1{font-size:26px;}
+  .rank-item{grid-template-columns:34px 1fr;}
+  .rank-item .r-score{grid-column:2;justify-self:start;}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;}
+  .ov-card:hover,.feature-side:hover,.cat-tag:hover,.btn-primary:hover{transform:none;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 公告条 -->
+<div class="notice-bar">
+  <div class="notice-inner">
+    <span class="notice-tag">更新</span>
+    <span>11月7日新增「侧逆光与肤质还原」布光对照表与 6 组样片参数，<a href="/#deep-read">查看深度解析</a></span>
+  </div>
+</div>
+
+<!-- 页头 -->
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/#" aria-label="西西人体写真 首页">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#2b1a2e"/><circle cx="20" cy="14" r="6" fill="#e8b4a0"/><path d="M10 33c0-6 4.5-11 10-11s10 5 10 11" fill="none" stroke="#e8b4a0" stroke-width="3" stroke-linecap="round"/></svg>
+      <span>
+        <span class="brand-name">西西人体写真</span>
+        <span class="brand-sub">ART FIGURE STUDIO</span>
+      </span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="打开导航菜单" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="mainNav" aria-label="主题导航">
+      <a href="/#overview">领域概览</a>
+      <a href="/#featured">精选作品</a>
+      <a href="/#updates">最新动态</a>
+      <a href="/#categories">拍摄类别</a>
+      <a href="/#deep-read">深度解析</a>
+      <a href="/#guide">体验指南</a>
+      <a href="/#faq">常见问答</a>
+    </nav>
+    <div class="header-tools">
+      <button class="search-btn" id="searchBtn" aria-label="打开站内搜索" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- 搜索面板 -->
+<div class="search-panel" id="searchPanel">
+  <div class="search-inner">
+    <input type="search" id="searchInput" placeholder="搜索作品类型、布光方案、模特沟通…" aria-label="站内搜索关键词">
+    <button type="button" id="searchGo">搜索</button>
+  </div>
+  <div class="search-result" id="searchResult" role="status" aria-live="polite"></div>
+</div>
+
+<!-- 首屏 -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <span class="hero-kicker"><i></i>艺术人体摄影 · 作品与实操</span>
+      <h1>西西人体写真</h1>
+      <p class="hero-desc">从窗边自然光到影棚双灯，记录身体线条与情绪的关系。<strong>48 组在档系列</strong>、<strong>12 类布光对照</strong>、<strong>9 条模特沟通清单</strong>，面向想认真拍好一组人体影像的摄影师与模特。</p>
+      <div class="hero-cta">
+        <a class="btn-primary" href="/#featured">浏览精选作品
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn-ghost" href="/#guide">查看拍摄指南</a>
+      </div>
+      <div class="hero-stats">
+        <div><b>48</b><span>在档系列</span></div>
+        <div><b>12</b><span>布光对照</span></div>
+        <div><b>9</b><span>沟通清单</span></div>
+        <div><b>2026</b><span>秋季更新</span></div>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 420 340" fill="none">
+        <defs>
+          <linearGradient id="ga" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#e8b4a0" stop-opacity=".9"/>
+            <stop offset="1" stop-color="#b5606e" stop-opacity=".55"/>
+          </linearGradient>
+          <linearGradient id="gb" x1="0" y1="1" x2="1" y2="0">
+            <stop offset="0" stop-color="#f5eee9" stop-opacity=".22"/>
+            <stop offset="1" stop-color="#f5eee9" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <rect x="24" y="26" width="372" height="288" rx="16" stroke="#e8b4a0" stroke-opacity=".35" stroke-dasharray="3 7"/>
+        <circle cx="212" cy="118" r="46" fill="url(#ga)"/>
+        <path d="M212 168c-52 0-92 38-92 86v14h184v-14c0-48-40-86-92-86Z" fill="url(#gb)" stroke="#e8b4a0" stroke-opacity=".5" stroke-width="1.5"/>
+        <path d="M142 250c26-26 44-22 70-4 24-20 48-24 70 2" stroke="#e8b4a0" stroke-opacity=".7" stroke-width="1.6"/>
+        <circle cx="212" cy="118" r="46" stroke="#f5eee9" stroke-opacity=".35"/>
+        <path d="M70 70h26M70 70v26M350 70h-26M350 70v26M70 270h26M70 270v-26M350 270h-26M350 270v-26" stroke="#e8b4a0" stroke-opacity=".65" stroke-width="1.6" stroke-linecap="round"/>
+        <circle cx="212" cy="118" r="66" stroke="#f5eee9" stroke-opacity=".14"/>
+        <text x="212" y="300" text-anchor="middle" fill="#f5eee9" fill-opacity=".4" font-size="10" letter-spacing="4">NATURAL LIGHT · 2026</text>
+      </svg>
+      <span class="frame-label">原创构图示意 · 窗边逆光</span>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <!-- 领域概览 -->
+  <section class="section" id="overview">
+    <div class="section-head">
+      <div>
+        <h2 class="section-title">领域概览</h2>
+        <p class="section-sub">人体写真不是单一风格，而是一套关于光、姿态、边界与呈现方式的工作方法。</p>
+      </div>
+      <a class="section-link" href="/#deep-read">进入深度解析 →</a>
+    </div>
+    <div class="overview-grid">
+      <article class="ov-card">
+        <div class="ov-num">01 / 类型</div>
+        <h3>艺术形体与情绪人像</h3>
+        <p>以线条、骨点与肤质为表现对象，弱化面部叙事。常见于棚拍黑白与窗边低饱和彩色两类路径。</p>
+      </article>
+      <article class="ov-card">
+        <div class="ov-num">02 / 光线</div>
+        <h3>自然光与可控布光</h3>
+        <p>窗边侧逆光依赖时间窗口，10:00—14:00 光质偏硬；影棚单灯加反光板更可控，色温稳定在 5200K 附近。</p>
+      </article>
+      <article class="ov-card">
+        <div class="ov-num">03 / 沟通</div>
+        <h3>拍摄边界与授权</h3>
+        <p>开拍前的姿态清单、服装范围与传播平台确认，决定了这组照片能不能被安全地展示出来。</p>
+      </article>
+      <article class="ov-card">
+        <div class="ov-num">04 / 呈现</div>
+        <h3>后期与输出规范</h3>
+        <p>肤色还原、皮肤纹理保留与直方图控制构成后期三条线，过度磨皮会让形体结构失去支撑。</p>
+      </article>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- 双栏：主内容 + 侧栏 -->
+  <div class="layout-two">
+    <div>
+
+      <!-- 精选内容 -->
+      <section class="section" id="featured" style="padding-top:var(--sp-6);">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">精选作品推荐</h2>
+            <p class="section-sub">按布光方案与情绪取向筛选，每组附拍摄参数与沟通记录。</p>
+          </div>
+          <a class="section-link" href="/#updates">全部更新 →</a>
+        </div>
+        <div class="featured-grid">
+          <article class="feature-main">
+            <img src="https://picsum.photos/seed/xixi-figure-01/640/420" width="640" height="420" loading="lazy" alt="窗边侧逆光下的女性肩颈与手臂线条，浅色纱帘做背景">
+            <div class="fm-body">
+              <span class="tag-pill">窗边侧逆光</span>
+              <h3>纱帘之后的肩线与锁骨：一组 9 张的低饱和形体练习</h3>
+              <p>拍摄于朝南飘窗，10:20 与 15:40 各拍一轮，对比光质由硬转软后阴影边缘的变化。模特全程保留内衣，重点在颈肩与手部动作。</p>
+              <div class="meta"><span>西西人体写真 · 形体练习系列</span><span>11月6日</span></div>
+            </div>
+          </article>
+          <article class="feature-side">
+            <span class="tag-pill">单灯伦勃朗</span>
+            <h3>单灯加黑旗：面部结构优先的棚拍方案</h3>
+            <p>柔光箱 45° 侧位，黑旗压暗下颌，适合鼻梁与颧骨明显的模特。</p>
+            <div class="meta">11月4日 · 棚拍方案</div>
+          </article>
+          <article class="feature-side">
+            <span class="tag-pill">剪影与轮廓</span>
+            <h3>逆光剪影的曝光取舍：保住轮廓线还是保住暗部</h3>
+            <p>背景灯提高到 1/160s 压暗主体，三张对比样片说明取舍点。</p>
+            <div class="meta">11月2日 · 光影试验</div>
+          </article>
+          <article class="feature-side">
+            <span class="tag-pill">黑白胶片质感</span>
+            <h3>高反差黑白：皮肤纹理保留与颗粒控制</h3>
+            <p>数码转黑白后用 8×10 输出尺寸检验噪点，纹理保留优先于平滑。</p>
+            <div class="meta">10月30日 · 后期流程</div>
+          </article>
+          <article class="feature-side">
+            <span class="tag-pill">居家自然光</span>
+            <h3>白墙与旧木地板：极简背景下的姿态密度</h3>
+            <p>背景越干净，姿态与呼吸节奏越要紧凑，12 张里只留 4 张。</p>
+            <div class="meta">10月27日 · 居家系列</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 深度解析：唯一主体阅读区 -->
+      <section class="section" id="deep-read" style="padding-top:var(--sp-5);">
+        <div class="deep-read">
+          <h2>深度解析：人体写真的三个可核对判断</h2>
+          <p class="deep-lead">关于光线、姿态与边界的经验说法很多，能落到具体参数和时间的却不多。以下三条判断都可以被反驳，也留下了核对路径。</p>
+
+          <h3>判断一：窗边自然光的“黄金两小时”被高估了</h3>
+          <p>不少拍摄笔记把上午 9 点到 11 点说成窗边人体写真的唯一窗口。把 2026 年 10 月 12 日至 11 月 3 日期间在朝南房间的同机位测试拉出来看，结论要复杂得多。</p>
+          <table class="compare-table">
+            <thead><tr><th>时间段</th><th>光质</th><th>阴影边缘过渡</th><th>适合的呈现</th></tr></thead>
+            <tbody>
+              <tr><td>09:00—10:30</td><td>偏软，色温约 5600K</td><td>宽，约 4—6cm</td><td>肤色过渡、肩颈细节</td></tr>
+              <tr><td>11:30—13:30</td><td>硬，对比度高</td><td>窄，约 1—2cm</td><td>骨点、腰线与肌理</td></tr>
+              <tr><td>15:30—16:30</td><td>回软，色温约 5000K</td><td>宽，略带暖调</td><td>整体气氛与全身构图</td></tr>
+            </tbody>
+          </table>
+          <p>11:30 之后的两小时，阴影边缘收窄到 1—2 厘米，肋骨、肩胛与膝盖骨的轮廓反而更清晰。把它一律避开，代价是失去一组结构感最强的素材。<strong>可反驳点：如果房间朝北或窗外有楼体遮挡，正午硬光的优势并不成立。</strong></p>
+
+          <h3>判断二：模特“放松”多数时候指肌肉张力可控，而不是随意</h3>
+          <p>10 月 18 日那场拍摄里，第一位模特按“自然放松”被要求随意站立，前 30 张里手臂贴紧躯干，腋下与躯干形成一片死阴影，后期几乎无法救回。换到第二位模特，指导语改成“手臂离开躯干两指宽，肩膀下沉，吸气到七成”，同一光位下的第九张就出现了清晰的手臂与腰侧空隙。</p>
+          <div class="deep-quote">
+            “不是让她别用力，是让她知道哪块肌肉可以放掉。”——10 月 18 日现场沟通记录，摄影助理原话转述
+            <cite>转述，非本人公开表述</cite>
+          </div>
+          <p>这句话常被当成玄学，其实可以拆成可执行的动作：肩胛下沉、下巴微收两度、手掌虚握。三项都能在取景器里即时核对。<strong>可反驳点：舞蹈或运动背景的模特对张力的理解不同，指令需要换成“保持核心收紧、四肢末端放松”。</strong></p>
+
+          <h3>判断三：授权范围写得越细，作品反而越容易公开</h3>
+          <p>10 月底整理的三份拍摄协议里，授权条款从一句话扩到七条后，模特签字后的撤稿请求明显减少。三份协议分别签署于 10 月 9 日、10 月 21 日与 11 月 1 日，条款包含：可发布平台清单（站内作品库、摄影展、个人作品集）、呈现范围（仅限非露点构图）、期限（24 个月）、撤稿提前通知期（15 天）以及商业用途需另行签约。</p>
+          <p>事实层面：三份协议均保留了模特单方撤回权。回应层面：一位模特在 10 月 26 日提出把社交平台从清单中删除，双方当天重签附录。推测层面：条款细化降低了沟通不确定性，但样本只有三份，尚不足以得出普遍结论。</p>
+          <p>反过来看，把授权写成“可广泛用于宣传”的旧模板，往往在发布前被叫停。<strong>可反驳点：过度细化也可能让流程变慢，首次合作时七条条款的讲解平均多花 22 分钟。</strong></p>
+        </div>
+      </section>
+
+      <!-- 最新更新 -->
+      <section class="section" id="updates" style="padding-top:var(--sp-5);">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">最新更新</h2>
+            <p class="section-sub">近 30 天内的新增条目与参数修订。</p>
+          </div>
+        </div>
+        <div class="update-list">
+          <div class="update-item">
+            <span class="update-date">11月7日</span>
+            <span class="u-title"><b>侧逆光与肤质还原</b>：新增布光对照表，6 组样片列出色温、ISO 与反光板距离</span>
+            <span class="update-cat">布光</span>
+          </div>
+          <div class="update-item">
+            <span class="update-date">11月5日</span>
+            <span class="u-title"><b>肩颈与手臂姿态清单</b>更新至 v3，补入“手臂离躯干两指宽”的取景核对方法</span>
+            <span class="update-cat">姿态</span>
+          </div>
+          <div class="update-item">
+            <span class="update-date">11月3日</span>
+            <span class="u-title"><b>正午硬光实录</b>：朝南房间 11:40 实拍，肋骨与肩胛轮廓样片 4 张上线</span>
+            <span class="update-cat">样片</span>
+          </div>
+          <div class="update-item">
+            <span class="update-date">11月1日</span>
+            <span class="u-title"><b>拍摄协议模板</b>扩至七条，加入撤稿提前通知期与商业用途另签条款</span>
+            <span class="update-cat">授权</span>
+          </div>
+          <div class="update-item">
+            <span class="update-date">10月29日</span>
+            <span class="u-title"><b>黑白输出尺寸对照</b>：A4 与 8×10 下噪点可见度对比，附锐化阈值</span>
+            <span class="update-cat">后期</span>
+          </div>
+          <div class="update-item">
+            <span class="update-date">10月26日</span>
+            <span class="u-title"><b>社交平台授权撤改案例</b>：模特删除一条平台清单，重签附录全过程</span>
+            <span class="update-cat">案例</span>
+          </div>
+          <div class="update-item">
+            <span class="update-date">10月22日</span>
+            <span class="u-title"><b>居家白墙系列</b>：极简背景 12 张选片过程与呼吸节奏说明</span>
+            <span class="update-cat">选片</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 分类入口 -->
+      <section class="section" id="categories" style="padding-top:var(--sp-5);">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">拍摄类别入口</h2>
+            <p class="section-sub">按光线条件、呈现方式与场景划分，点击进入对应作品与说明。</p>
+          </div>
+        </div>
+        <div class="cat-index">
+          <a class="cat-tag" href="/#featured">窗边侧逆光 <em>9 组</em></a>
+          <a class="cat-tag" href="/#featured">单灯伦勃朗光 <em>6 组</em></a>
+          <a class="cat-tag" href="/#featured">逆光剪影 <em>5 组</em></a>
+          <a class="cat-tag" href="/#featured">黑白高反差 <em>8 组</em></a>
+          <a class="cat-tag" href="/#featured">居家自然光 <em>7 组</em></a>
+          <a class="cat-tag" href="/#featured">局部肢体特写 <em>4 组</em></a>
+          <a class="cat-tag" href="/#featured">低饱和情绪人像 <em>5 组</em></a>
+          <a class="cat-tag" href="/#featured">织物与纱帘遮挡 <em>3 组</em></a>
+          <a class="cat-tag" href="/#guide">拍摄协议与授权 <em>模板</em></a>
+          <a class="cat-tag" href="/#faq">模特沟通问答 <em>12 条</em></a>
+        </div>
+      </section>
+
+      <!-- 体验指南 -->
+      <section class="section" id="guide" style="padding-top:var(--sp-5);">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">首次拍摄体验指南</h2>
+            <p class="section-sub">从预约到出片，六步走完一次完整的室内人体写真拍摄。</p>
+          </div>
+        </div>
+        <div class="steps-panel">
+          <div class="steps">
+            <div class="step">
+              <div class="step-num">1</div>
+              <div class="step-body">
+                <h3>前期确认：姿态范围与呈现边界</h3>
+                <p>用文字列出可拍区域与不可拍区域，例如“保留内衣、不拍正面全身”。双方确认后写入协议附件，现场不变更。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">2</div>
+              <div class="step-body">
+                <h3>场地与光位勘定</h3>
+                <p>提前一天在同一时段看窗光走向，记录光照区域边界。朝南房间冬季可用光照约 4.5 小时，朝北房间全天均匀但弱。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">3</div>
+              <div class="step-body">
+                <h3>镜头与焦段选择</h3>
+                <p>室内全身多用 35mm 或 50mm，局部特写用 85mm 压缩比例。拍摄距离不足 1.5 米时，广角会造成肢体变形。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">4</div>
+              <div class="step-body">
+                <h3>现场沟通与试拍</h3>
+                <p>先拍 10 张试光片，让模特看回放确认感受。摄影助理全程在场，负责递衣物与遮挡，减少停顿时的不适感。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">5</div>
+              <div class="step-body">
+                <h3>后期与选片</h3>
+                <p>每组系列保留比例控制在 1:4 左右。肤色还原用波形图核对，皮肤纹理保留优先于平滑，磨皮强度不超过图层 30%。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">6</div>
+              <div class="step-body">
+                <h3>授权确认与发布</h3>
+                <p>发布前把最终 3—5 张缩略图发给模特确认，清单外平台一律不发。撤稿请求需在 15 天通知期内处理。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 对照面板 -->
+      <section class="section" id="compare" style="padding-top:var(--sp-5);">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">自然光与棚拍对照</h2>
+            <p class="section-sub">两条路径没有优劣，取决于你想强调的部分。</p>
+          </div>
+        </div>
+        <div class="compare-grid">
+          <div class="panel-card soft">
+            <h3>窗边自然光</h3>
+            <ul>
+              <li>时间窗口受季节影响，冬季可用约 4.5 小时</li>
+              <li>色温随天气浮动，阴天约 6500K，需后期统一</li>
+              <li>阴影过渡自然，适合肤色与情绪呈现</li>
+              <li>空间受限，全身构图常需贴墙拍摄</li>
+            </ul>
+          </div>
+          <div class="panel-card dark">
+            <h3>影棚可控布光</h3>
+            <ul>
+              <li>色温锁定 5200K，连续拍摄不受天气干扰</li>
+              <li>单灯加反光板即可完成，器材成本可控</li>
+              <li>黑旗与蜂巢可精确收窄光影边界</li>
+              <li>需要模特适应强光，首次拍摄常有眨眼增多</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq" style="padding-top:var(--sp-5);">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">常见问答</h2>
+            <p class="section-sub">关于沟通、布光、发布与器材的高频问题。</p>
+          </div>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>人体写真拍摄前如何与模特沟通边界？</summary>
+            <div class="faq-body">逐条确认可拍与不可拍的姿态、服装范围与呈现部位，写成文字清单由双方签字。现场安排同性助理在场，试拍阶段让模特先看回放。任何超出清单的要求都放到下一次拍摄重新确认。</div>
+          </details>
+          <details class="faq-item">
+            <summary>室内人体写真布光有哪些常见方案？</summary>
+            <div class="faq-body">单灯侧逆光塑造轮廓，适合腰线与肩胛；双灯伦勃朗光强调面部与锁骨结构；柔光箱顶光降低阴影硬度，适合情绪偏柔的画面。选择依据是空间高度与模特肤质，空间不足 2.6 米时顶光容易压暗额头。</div>
+          </details>
+          <details class="faq-item">
+            <summary>人体写真作品公开发布要注意什么？</summary>
+            <div class="faq-body">需要取得书面授权，明确传播平台、呈现范围与期限。商业用途单独约定费用与撤稿机制。发布前把最终缩略图交模特确认，清单之外的平台不发布。</div>
+          </details>
+          <details class="faq-item">
+            <summary>手机能拍出合格的人体写真吗？</summary>
+            <div class="faq-body">自然光窗边配合一块反光板，手机可以完成局部肢体与剪影类作品。弱光环境下噪点与宽容度不足，肤色容易偏灰，需要补光或改用相机。手机广角镜头近拍会造成肢体拉长，建议保持 2 米以上距离切到 2 倍焦段。</div>
+          </details>
+          <details class="faq-item">
+            <summary>黑白高反差照片怎么保住皮肤纹理？</summary>
+            <div class="faq-body">转黑白前先把红通道提亮约 8%—12%，避免肤色区域死黑。锐化阈值设在 2.0 左右，输出到 8×10 尺寸时检查噪点可见度，纹理优先于平滑。</div>
+          </details>
+          <details class="faq-item">
+            <summary>首次合作的模特紧张怎么办？</summary>
+            <div class="faq-body">先用 15 分钟拍不需要暴露的日常姿态，比如靠窗站立与手部特写，让模特适应快门声与指令节奏。回放时只指出做得好的地方，再逐步进入拍摄清单内容。</div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 用户评论 -->
+      <section class="section" id="comments" style="padding-top:var(--sp-5);">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">用户评论与现场反馈</h2>
+            <p class="section-sub">来自拍摄参与者与读者的真实反馈，包含不满意的地方。</p>
+          </div>
+        </div>
+        <div class="comment-grid">
+          <article class="comment-card">
+            <div class="comment-head">
+              <span class="avatar">林</span>
+              <span class="comment-name">林一舟</span>
+              <span class="comment-stars">★★★★☆</span>
+            </div>
+            <p class="comment-text">按<em>《窗边侧逆光》那组</em>的参数拍了，反光板放在模特斜前方 1.2 米确实提亮了锁骨，但我家窗朝东，10 点的光比你们朝南的硬不少，最后还是加了柔光布。</p>
+            <div class="comment-meta">11月6日 · 摄影师</div>
+          </article>
+          <article class="comment-card">
+            <div class="comment-head">
+              <span class="avatar">许</span>
+              <span class="comment-name">许棠</span>
+              <span class="comment-stars">★★★★★</span>
+            </div>
+            <p class="comment-text"><em>协议模板七条</em>对我来说挺有用，第一次拍的时候只签了一句话，后来想撤回社交平台上的图扯了半个月。现在提前写好平台清单，省心。</p>
+            <div class="comment-meta">11月4日 · 模特</div>
+          </article>
+          <article class="comment-card">
+            <div class="comment-head">
+              <span class="avatar">周</span>
+              <span class="comment-name">周叙白</span>
+              <span class="comment-stars">★★★☆☆</span>
+            </div>
+            <p class="comment-text">正午硬光那段不太同意。10 月 30 日我在朝南房间试过，11 点半的光直接把额头阴影切成一条硬线，<em>肋骨轮廓是清楚了，脸完全没法看</em>。可能还是得看具体房间。</p>
+            <div class="comment-meta">11月2日 · 摄影爱好者</div>
+          </article>
+          <article class="comment-card">
+            <div class="comment-head">
+              <span class="avatar">苏</span>
+              <span class="comment-name">苏见夏</span>
+              <span class="comment-stars">★★★★☆</span>
+            </div>
+            <p class="comment-text"><em>《高反差黑白》那篇</em>的锐化阈值 2.0 我试了，8×10 输出确实没出现明显噪点，不过 24 寸打印就有点糊，可能需要再降一点。</p>
+            <div class="comment-meta">10月31日 · 后期从业者</div>
+          </article>
+          <article class="comment-card">
+            <div class="comment-head">
+              <span class="avatar">陈</span>
+              <span class="comment-name">陈默</span>
+              <span class="comment-stars">★★★☆☆</span>
+            </div>
+            <p class="comment-text">步骤写得挺细，但<em>“手臂离躯干两指宽”</em>这个距离对身高 175 以上的模特不太够用，我拍的那位手臂依旧贴着肋骨，后来改成三指才出空隙。</p>
+            <div class="comment-meta">10月28日 · 摄影师</div>
+          </article>
+          <article class="comment-card">
+            <div class="comment-head">
+              <span class="avatar">沈</span>
+              <span class="comment-name">沈知遥</span>
+              <span class="comment-stars">★★★★★</span>
+            </div>
+            <p class="comment-text">作为被拍的一方，最在意的是现场有没有人随时能递衣服。<em>《首次拍摄体验指南》</em>里写助理全程在场这条，比参数重要多了。</p>
+            <div class="comment-meta">10月25日 · 模特</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 相关资讯 -->
+      <section class="section" id="news" style="padding-top:var(--sp-5);">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">相关资讯</h2>
+            <p class="section-sub">行业动态、器材变化与规则调整。</p>
+          </div>
+        </div>
+        <div class="news-timeline">
+          <div class="news-item">
+            <time datetime="2026-11-07">11月7日</time>
+            <h3>某图片平台调整人体艺术类作品审核细则</h3>
+            <p>新增对呈现部位与遮挡方式的分级说明，非露点构图仍需上传授权证明。对以形体为表现对象的作品，审核改为人工双审。</p>
+          </div>
+          <div class="news-item">
+            <time datetime="2026-11-02">11月2日</time>
+            <h3>摄影棚租用平台上线“同性助理”筛选标签</h3>
+            <p>部分城市棚位信息中增加助理性别与在场人数选项，预约时可直接勾选，覆盖北京、上海、成都三地约 40 个棚位。</p>
+          </div>
+          <div class="news-item">
+            <time datetime="2026-10-24">10月24日</time>
+            <h3>一款常用转黑白插件发布 v5.2，肤色通道权重调整</h3>
+            <p>红通道默认提亮值由 6% 改为 9%，对东方肤色在 5200K 下的高光溢出做出补偿，旧预设需要重新校准。</p>
+          </div>
+          <div class="news-item">
+            <time datetime="2026-10-15">10月15日</time>
+            <h3>模特经纪公司公布新一轮拍摄协议范本</h3>
+            <p>范本加入撤稿通知期与商业用途分离条款，明确线上展示与线下展览需分别授权，范本可公开下载。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 相关推荐 -->
+      <section class="section" id="related" style="padding-top:var(--sp-5);">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">相关推荐</h2>
+            <p class="section-sub">继续阅读的方向，按你正在解决的问题挑选。</p>
+          </div>
+        </div>
+        <div class="rec-tags">
+          <a class="rec-tag" href="/#deep-read">窗边侧逆光时间表</a>
+          <a class="rec-tag" href="/#deep-read">模特姿态指令拆解</a>
+          <a class="rec-tag" href="/#guide">拍摄协议七条模板</a>
+          <a class="rec-tag" href="/#compare">单灯与双灯取舍</a>
+          <a class="rec-tag" href="/#faq">手机拍人体写真</a>
+          <a class="rec-tag" href="/#news">作品发布审核细则</a>
+          <a class="rec-tag" href="/#guide">肤色还原波形图核对</a>
+          <a class="rec-tag" href="/#comments">撤稿请求处理流程</a>
+        </div>
+      </section>
+
+      <!-- 榜单 -->
+      <section class="section" id="ranking" style="padding-top:var(--sp-5);">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">本月系列榜单</h2>
+            <p class="section-sub">按阅读量、收藏与转载申请综合排序，统计截至 11 月 7 日。</p>
+          </div>
+        </div>
+        <div class="rank-list">
+          <div class="rank-item">
+            <div><div class="r-title">纱帘之后的肩线与锁骨</div><div class="r-sub">形体练习系列 · 9 张</div></div>
+            <span class="r-score">收藏 328</span>
+          </div>
+          <div class="rank-item">
+            <div><div class="r-title">单灯加黑旗：面部结构优先</div><div class="r-sub">棚拍方案 · 6 张</div></div>
+            <span class="r-score">收藏 274</span>
+          </div>
+          <div class="rank-item">
+            <div><div class="r-title">逆光剪影的曝光取舍</div><div class="r-sub">光影试验 · 3 组对比</div></div>
+            <span class="r-score">收藏 241</span>
+          </div>
+          <div class="rank-item">
+            <div><div class="r-title">高反差黑白：纹理与颗粒</div><div class="r-sub">后期流程 · 5 张样片</div></div>
+            <span class="r-score">收藏 205</span>
+          </div>
+          <div class="rank-item">
+            <div><div class="r-title">白墙与旧木地板</div><div class="r-sub">居家系列 · 4 张精选</div></div>
+            <span class="r-score">收藏 189</span>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- 侧栏 -->
+    <aside class="sidebar" aria-label="侧栏导航与推荐">
+      <div class="side-box">
+        <h2>栏目导航</h2>
+        <nav class="side-nav" id="sideNav" aria-label="页内栏目">
+          <a href="/#overview">领域概览</a>
+          <a href="/#featured">精选作品推荐</a>
+          <a href="/#deep-read">深度解析</a>
+          <a href="/#updates">最新更新</a>
+          <a href="/#categories">拍摄类别入口</a>
+          <a href="/#guide">体验指南</a>
+          <a href="/#compare">自然光与棚拍对照</a>
+          <a href="/#faq">常见问答</a>
+          <a href="/#comments">用户评论</a>
+          <a href="/#news">相关资讯</a>
+          <a href="/#ranking">本月系列榜单</a>
+        </nav>
+      </div>
+      <div class="side-box">
+        <h2>近期热门条目</h2>
+        <div class="side-list">
+          <a href="/#featured">肩颈与手臂姿态清单 v3<span>11月5日 · 姿态</span></a>
+          <a href="/#featured">正午硬光实录 4 张样片<span>11月3日 · 样片</span></a>
+          <a href="/#guide">拍摄协议模板扩至七条<span>11月1日 · 授权</span></a>
+          <a href="/#news">非露点构图审核分级<span>11月7日 · 资讯</span></a>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<!-- 页尾 -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="brand-name">西西人体写真</span>
+        <p>记录身体线条、光与情绪的关系。作品、参数与沟通记录，都来自真实的室内拍摄现场。</p>
+      </div>
+      <div class="footer-groups">
+        <div>
+          <h3>作品</h3>
+          <ul>
+            <li><a href="/#featured">窗边侧逆光系列</a></li>
+            <li><a href="/#featured">单灯伦勃朗光</a></li>
+            <li><a href="/#featured">逆光剪影</a></li>
+            <li><a href="/#ranking">本月系列榜单</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>方法</h3>
+          <ul>
+            <li><a href="/#deep-read">深度解析</a></li>
+            <li><a href="/#guide">体验指南</a></li>
+            <li><a href="/#compare">布光对照</a></li>
+            <li><a href="/#faq">常见问答</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>动态</h3>
+          <ul>
+            <li><a href="/#updates">最新更新</a></li>
+            <li><a href="/#news">相关资讯</a></li>
+            <li><a href="/#comments">用户评论</a></li>
+            <li><a href="/#categories">拍摄类别入口</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="note">页内作品、参数、评论与协议案例均为示例内容，用于展示拍摄方法与呈现规范，不构成法律或商业建议。协议条款请依据所在地法规与实际合作情况调整。页脚更新时间 2026-11-08，对应正文 11 月 7 日布光对照表与 11 月 5 日姿态清单更新。</p>
+      <p>© 2026 西西人体写真 · 仅供摄影学习与作品交流</p>
+    </div>
+  </div>
+</footer>
+
+<!-- 回到顶部 -->
+<button class="to-top" id="toTop" aria-label="回到页面顶部">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<script>
+(function(){
+  var menuToggle = document.getElementById('menuToggle');
+  var mainNav = document.getElementById('mainNav');
+  var searchBtn = document.getElementById('searchBtn');
+  var searchPanel = document.getElementById('searchPanel');
+  var searchInput = document.getElementById('searchInput');
+  var searchGo = document.getElementById('searchGo');
+  var searchResult = document.getElementById('searchResult');
+  var toTop = document.getElementById('toTop');
+  var sideLinks = Array.prototype.slice.call(document.querySelectorAll('#sideNav a'));
+
+  /* 菜单 */
+  menuToggle.addEventListener('click', function(){
+    var open = document.body.classList.toggle('menu-open');
+    menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    menuToggle.setAttribute('aria-label', open ? '关闭导航菜单' : '打开导航菜单');
+  });
+  mainNav.addEventListener('click', function(e){
+    if (e.target.tagName === 'A' && window.innerWidth <= 760) {
+      document.body.classList.remove('menu-open');
+      menuToggle.setAttribute('aria-expanded','false');
+      menuToggle.setAttribute('aria-label','打开导航菜单');
+    }
+  });
+
+  /* 搜索 */
+  var searchIndex = [];
+  document.querySelectorAll('main h2, main h3, main .r-title, main .side-list a, main .faq-item summary').forEach(function(el){
+    var text = el.textContent.trim().replace(/\s+/g,' ');
+    if (text.length > 2) searchIndex.push({text: text, el: el});
+  });
+
+  function runSearch(){
+    var q = searchInput.value.trim().toLowerCase();
+    if (!q){
+      searchResult.textContent = '请输入关键词，例如：侧逆光、协议、锐化阈值。';
+      return;
+    }
+    var hits = searchIndex.filter(function(item){ return item.text.toLowerCase().indexOf(q) !== -1; });
+    if (hits.length === 0){
+      searchResult.innerHTML = '没有找到与「' + escapeHTML(q) + '」相关的内容，试试“窗边”“布光”“授权”“剪影”等词。';
+      return;
+    }
+    var html = '找到 ' + hits.length + ' 条结果：';
+    hits.slice(0,6).forEach(function(item){
+      var safe = escapeHTML(item.text);
+      var re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')','gi');
+      html += ' <mark>' + safe.replace(re,'<mark>$1</mark>') + '</mark>·';
+    });
+    searchResult.innerHTML = html.replace(/·$/,'');
+  }
+  function escapeHTML(s){
+    return s.replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; });
+  }
+
+  searchBtn.addEventListener('click', function(){
+    var open = searchPanel.classList.toggle('open');
+    searchBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open){ searchInput.focus(); }
+  });
+  searchGo.addEventListener('click', runSearch);
+  searchInput.addEventListener('keydown', function(e){
+    if (e.key === 'Enter'){ runSearch(); }
+  });
+
+  /* 回到顶部 */
+  function toggleToTop(){
+    if (window.scrollY > 480){ toTop.classList.add('show'); }
+    else { toTop.classList.remove('show'); }
+  }
+  window.addEventListener('scroll', toggleToTop, {passive:true});
+  toggleToTop();
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* 侧栏滚动高亮 */
+  var sections = sideLinks.map(function(a){
+    var id = a.getAttribute('href').replace('/#','');
+    return document.getElementById(id);
+  });
+  function highlight(){
+    var pos = window.scrollY + 140;
+    var current = -1;
+    sections.forEach(function(sec, i){
+      if (sec && sec.offsetTop <= pos) current = i;
+    });
+    sideLinks.forEach(function(a, i){
+      a.classList.toggle('active', i === current);
+    });
+  }
+  window.addEventListener('scroll', highlight, {passive:true});
+  window.addEventListener('resize', highlight);
+  highlight();
+})();
+</script>
+</body>
+                                                  </html>
